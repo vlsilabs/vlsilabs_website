@@ -40,11 +40,11 @@ export default function SuccessStories() {
 
             <Grid item xs={12} sx={{ marginBottom: '40px'}}>
                 <Carousel responsive={responsive} 
-                autoPlaySpeed={500} 
+                autoPlaySpeed={50} 
                 autoPlay={true} 
                 infinite={true}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
-                transitionDuration={500}>
+                transitionDuration={6500}>
                     {TESTIMONIALS.map(testimonial => (
                         <Card key={testimonial.key} sx={{
                             height: '100%',
