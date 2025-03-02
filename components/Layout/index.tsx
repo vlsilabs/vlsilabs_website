@@ -9,7 +9,7 @@ export default function Layout({ children }: {children: ReactNode}) {
   return (
     <>
       <Head>
-        <title>Vlsilabs</title>
+        <title>VLSILABS</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon_io/apple-touch-icon.png" />
       </Head>
