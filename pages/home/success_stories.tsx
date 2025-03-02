@@ -40,7 +40,7 @@ export default function SuccessStories() {
 
             <Grid item xs={12} sx={{ marginBottom: '40px'}}>
                 <Carousel responsive={responsive} 
-                autoPlaySpeed={1500} 
+                autoPlaySpeed={500} 
                 autoPlay={true} 
                 infinite={true}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
